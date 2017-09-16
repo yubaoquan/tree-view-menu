@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "description": "A customizable menu shows most frequent operations on tree-view.",
   "keywords": [
-      "tree-view",
-      "click",
-      "menu",
-      "doubleclick",
-      "double-click"
+    "tree-view",
+    "click",
+    "menu",
+    "doubleclick",
+    "double-click"
   ],
   "repository": "https://github.com/atom/tree-view-frequent-menu",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "recursive-readdir": "^2.2.1",
     "trash": "^4.0.1"
   }
 }
