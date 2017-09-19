@@ -13,6 +13,10 @@
         border-radius: @component-border-radius;
         padding: 0 5px;
         line-height: 100%;
+        &.menu {
+            padding: 5px;
+            margin: 0 5px 5px 0;
+        }
     }
     &-btn:hover {
         background-color: @button-background-color-hover;
@@ -29,6 +33,11 @@
         padding: 0 !important;
         &.menu {
             max-width: 200px;
+        }
+        &.rename {
+            .input {
+                background-color: @input-background-color;
+            }
         }
     }
     &-panel {
