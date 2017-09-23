@@ -1,16 +1,16 @@
 {
-  "name": "tree-view-frequent-menu",
+  "name": "tree-view-menu",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "A customizable menu shows most frequent operations on tree-view.",
+  "description": "Call a customizable menu which shows user choosed operations of tree-view.",
   "keywords": [
     "tree-view",
     "click",
     "menu",
-    "doubleclick",
-    "double-click"
+    "open",
+    "delete"
   ],
-  "repository": "https://github.com/atom/tree-view-frequent-menu",
+  "repository": "https://github.com/atom/tree-view-menu",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
