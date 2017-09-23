@@ -27,3 +27,4 @@ Because demo2 and demo3 images are over 8M each, it may not be seen directly in 
 ## Change log
 
 - 0.1.0 init
+- 0.1.1 update readme
