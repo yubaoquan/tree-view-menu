@@ -1,2 +1,3 @@
 - 0.1.0 init
 - 0.1.1 update readme
+- 0.1.2 upload more small gif
