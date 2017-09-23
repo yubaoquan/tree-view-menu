@@ -1,6 +1,6 @@
 'use babel';
 
-import TreeViewFrequentMenu from '../lib/tree-view-frequent-menu';
+import TreeViewFrequentMenu from '../lib/tree-view-menu';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,32 +12,32 @@ describe('TreeViewFrequentMenu', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('tree-view-frequent-menu');
+    activationPromise = atom.packages.activatePackage('tree-view-menu');
   });
 
-  describe('when the tree-view-frequent-menu:toggle event is triggered', () => {
+  describe('when the tree-view-menu:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.tree-view-frequent-menu')).not.toExist();
+      expect(workspaceElement.querySelector('.tree-view-menu')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'tree-view-frequent-menu:toggle');
+      atom.commands.dispatch(workspaceElement, 'tree-view-menu:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.tree-view-frequent-menu')).toExist();
+        expect(workspaceElement.querySelector('.tree-view-menu')).toExist();
 
-        let treeViewFrequentMenuElement = workspaceElement.querySelector('.tree-view-frequent-menu');
+        let treeViewFrequentMenuElement = workspaceElement.querySelector('.tree-view-menu');
         expect(treeViewFrequentMenuElement).toExist();
 
         let treeViewFrequentMenuPanel = atom.workspace.panelForItem(treeViewFrequentMenuElement);
         expect(treeViewFrequentMenuPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'tree-view-frequent-menu:toggle');
+        atom.commands.dispatch(workspaceElement, 'tree-view-menu:toggle');
         expect(treeViewFrequentMenuPanel.isVisible()).toBe(false);
       });
     });
@@ -51,11 +51,11 @@ describe('TreeViewFrequentMenu', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.tree-view-frequent-menu')).not.toExist();
+      expect(workspaceElement.querySelector('.tree-view-menu')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'tree-view-frequent-menu:toggle');
+      atom.commands.dispatch(workspaceElement, 'tree-view-menu:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,9 +63,9 @@ describe('TreeViewFrequentMenu', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let treeViewFrequentMenuElement = workspaceElement.querySelector('.tree-view-frequent-menu');
+        let treeViewFrequentMenuElement = workspaceElement.querySelector('.tree-view-menu');
         expect(treeViewFrequentMenuElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'tree-view-frequent-menu:toggle');
+        atom.commands.dispatch(workspaceElement, 'tree-view-menu:toggle');
         expect(treeViewFrequentMenuElement).not.toBeVisible();
       });
     });

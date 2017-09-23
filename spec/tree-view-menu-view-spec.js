@@ -1,6 +1,6 @@
 'use babel';
 
-import TreeViewFrequentMenuView from '../lib/tree-view-frequent-menu-view';
+import TreeViewFrequentMenuView from '../lib/tree-view-menu-view';
 
 describe('TreeViewFrequentMenuView', () => {
   it('has one valid test', () => {
