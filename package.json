@@ -10,7 +10,7 @@
     "open",
     "delete"
   ],
-  "repository": "https://github.com/atom/tree-view-menu",
+  "repository": "https://github.com/yubaoquan/tree-view-menu",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
