@@ -2,3 +2,4 @@
 - 0.1.1 update readme
 - 0.1.2 upload more small gif
 - 0.1.3 fix search in directory method name wrong spell
+- 0.1.4 fix search in directory cannot call on the root folder
