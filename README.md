@@ -42,3 +42,8 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.1.0 init
 - 0.1.1 update readme
 - 0.1.2 upload more small gif
+- 0.1.3 fix search in directory method name wrong spell
+
+## TODO
+
+- Add `Ignore` button to menu, so user can ignore file or folder in git project.
