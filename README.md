@@ -48,6 +48,7 @@ so there may be some problems when open multiple projects or no project files in
 - 0.1.3 fix search in directory method name wrong spell
 - 0.1.4 fix search in directory cannot call on the root folder
 - 0.1.5 fix query root node using class `icon-repo` cause npe
+- 0.1.6 skip this version number to fix the problem of version number not correct
 
 ## TODO
 
