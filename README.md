@@ -11,7 +11,10 @@ Click on this button can do one of things below:
 
 ## p.s.
 
-Because the original demo2 and demo3 images and their clearly compressed ones are so big (over 8M each) that it may not be seen directly in this page. So I have to also put blurry ones to this page. I add the links of clearly versions as well. You can see the clearly version gif in [this package's repo](https://github.com/yubaoquan/tree-view-menu).
+1. Because the original demo2 and demo3 images and their clearly compressed ones are so big (over 8M each) that it may not be seen directly in this page. So I have to also put blurry ones to this page. I add the links of clearly versions as well. You can see the clearly version gif in [this package's repo](https://github.com/yubaoquan/tree-view-menu).
+
+2. This package is developed for use case of opening single project in atom,
+so there may be some problems when open multiple projects or no project files in atom. If you happen to get any problem, please create an issue in the [this package's repo](https://github.com/yubaoquan/tree-view-menu).
 
 ## demo
 
@@ -44,6 +47,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.1.2 upload more small gif
 - 0.1.3 fix search in directory method name wrong spell
 - 0.1.4 fix search in directory cannot call on the root folder
+- 0.1.5 fix query root node using class `icon-repo` cause npe
 
 ## TODO
 
