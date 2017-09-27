@@ -31,10 +31,25 @@
         min-height: 100px;
         width: auto !important;
         padding: 0 !important;
-        &.menu {
+        &-menu {
             max-width: 200px;
         }
-        &.rename {
+        &-ignore {
+            width: 400px !important;
+            .checkGroupItem {
+                clear: both;
+                margin-bottom: 10px;
+                input[type=text] {
+                    float: right;
+                    border-radius: 2px;
+                    min-width: 160px;
+                }
+                input[type=radio] {
+                    margin-right: 5px;
+                }
+            }
+        }
+        &-rename {
             .input {
                 background-color: @input-background-color;
             }
