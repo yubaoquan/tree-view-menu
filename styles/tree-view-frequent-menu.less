@@ -17,6 +17,11 @@
             padding: 5px;
             margin: 0 5px 5px 0;
         }
+        &.footer {
+            height: 25px;
+            line-height: 11px;
+            margin: 0 5px;
+        }
     }
     &-btn:hover {
         background-color: @button-background-color-hover;
@@ -45,21 +50,33 @@
                     min-width: 160px;
                 }
                 input[type=radio] {
-                    margin-right: 5px;
+                    margin-right: 10px;
                 }
             }
         }
         &-rename {
             .input {
+                width: 90%;
                 background-color: @input-background-color;
             }
+            text-align: center;
+            min-width: 200px;
         }
     }
     &-panel {
-        padding: 5px;
+        padding: 5px 10px 10px;
+        input[type=text] {
+            padding: 5px;
+        }
     }
     &-panel-header {
         margin-bottom: 5px;
+        text-align: left;
+    }
+    &-panel-footer {
+        padding: 5px;
+        text-align: center;
+        margin: 10px 0 0;
     }
     &-panel-close-btn {
         font-size: 11px;

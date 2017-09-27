@@ -11,12 +11,15 @@ Click on this button can do one of things below:
 
 ## p.s.
 
-1. Because the original demo2 and demo3 images and their clearly compressed ones are so big (over 8M each) that it may not be seen directly in this page. So I have to also put blurry ones to this page. I add the links of clearly versions as well. You can see the clearly version gif in [this package's repo](https://github.com/yubaoquan/tree-view-menu).
-
-2. This package is developed for use case of opening single project in atom,
+1. This package is developed for use case of opening single project in atom,
 so there may be some problems when open multiple projects or no project files in atom. If you happen to get any problem, please create an issue in the [this package's repo](https://github.com/yubaoquan/tree-view-menu).
 
+2. This package is developed under node version `8.1.2`, I used some features that maybe not available in node versions lower than `7.6` such as `async/await`(I don't want to take any polyfill code into this package). So make sure your node environment is at least in version `7.6`.
+
 ## demo
+
+Because the original demo2 and demo3 images and their clearly compressed ones are so big (over 8M each) that it may not be seen directly in this page. So I have to also put blurry ones to this page. I add the links of clearly versions as well. You can see the clearly version gif in [this package's repo](https://github.com/yubaoquan/tree-view-menu).
+
 
 ### demo1
 ![demo1](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/intro1-min.gif)
