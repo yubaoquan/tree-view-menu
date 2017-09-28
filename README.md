@@ -14,7 +14,7 @@ Click on this button can do one of things below:
 1. This package is developed for use case of opening single project in atom,
 so there may be some problems when open multiple projects or no project files in atom. If you happen to get any problem, please create an issue in the [this package's repo](https://github.com/yubaoquan/tree-view-menu).
 
-2. This package is developed under node version `8.1.2`, I used some features that maybe not available in node versions lower than `7.6` such as `async/await`(I don't want to take any polyfill code into this package). So make sure your node environment is at least in version `7.6`.
+2. When developing this package, the node in atom was in version 7.4.0, and the syntax `async/await` ran well. I think some atom in lower version would have trouble with new ES syntax(not investigated). So make sure your atom version is up to date.
 
 ## demo
 
