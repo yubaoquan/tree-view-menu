@@ -5,3 +5,4 @@
 - 0.1.4 fix search in directory cannot call on the root folder
 - 0.1.5 fix query root node using class `icon-repo` cause npe
 - 0.1.6 skip this version number to fix the problem of version number not correct
+- 0.2.0 Add ignore feature

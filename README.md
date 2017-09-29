@@ -43,6 +43,23 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 
 ### [demo3 clearly compressed image link](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/intro3-min.gif)
 
+## Supported operation
+- New File
+- New Folder
+- Rename
+- Delete
+- Copy
+- Cut
+- Paste
+- Duplicate
+- Copy Name
+- Copy Project Path
+- Copy Full Path
+- Close Pane
+- Find And Replace
+- Search In Directory
+- Ignore
+
 ## Change log
 
 - 0.1.0 init
@@ -52,7 +69,8 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.1.4 fix search in directory cannot call on the root folder
 - 0.1.5 fix query root node using class `icon-repo` cause npe
 - 0.1.6 skip this version number to fix the problem of version number not correct
+- 0.2.0 Add ignore feature
 
 ## TODO
 
-- Add `Ignore` button to menu, so user can ignore file or folder in git project.
+-
