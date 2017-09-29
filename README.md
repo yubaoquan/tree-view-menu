@@ -73,4 +73,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 
 ## TODO
 
--
+- Collapse current folder
+- Collapse root folder
+- Collapse all other folders
+- Open / close all files under folder (recursive or not)
