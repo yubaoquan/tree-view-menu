@@ -9,6 +9,12 @@ Click on this button can do one of things below:
 1. Call a menu which contains frequently used buttons you selected in the setting panel.
 2. Do an operation which is set by you in the setting panel.
 
+## Advanced
+This package provide some other operations which is not in the context menu of tree-view, such as `Collapse`, `Dispatch`, `Ignore`
+
+The most interesting feature is `Dispatch`, it provides a way to set the button's behavior in registered atom commands.
+
+
 ## p.s.
 
 1. This package is developed for use case of opening single project in atom,
@@ -44,38 +50,40 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 ### [demo3 clearly compressed image link](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/intro3-min.gif)
 
 ## Supported operation
-- New File
-- New Folder
-- Rename
-- Delete
+
+- Close Pane
+- Collapse Other Folders
+- Collapse
+- Collapse Root Folder
 - Copy
-- Cut
-- Paste
-- Duplicate
+- Copy Full Path
 - Copy Name
 - Copy Project Path
-- Copy Full Path
-- Close Pane
+- Cut
+- Delete
+- Dispatch
+- Duplicate
 - Find And Replace
-- Search In Directory
 - Ignore
+- New File
+- New Folder
+- Paste
+- Rename
+- Search In Directory
 
 ## Change log
 
-- 0.1.0 init
-- 0.1.1 update readme
-- 0.1.2 upload more small gif
-- 0.1.3 fix search in directory method name wrong spell
-- 0.1.4 fix search in directory cannot call on the root folder
-- 0.1.5 fix query root node using class `icon-repo` cause npe
-- 0.1.6 skip this version number to fix the problem of version number not correct
-- 0.2.0 Add ignore feature
+- 0.1.0 Init
+- 0.1.1 Update readme
+- 0.1.2 Upload more small gif
+- 0.1.3 Fix search in directory method name wrong spell
+- 0.1.4 Fix search in directory cannot call on the root folder
+- 0.1.5 Fix query root node using class `icon-repo` cause NPE
+- 0.1.6 Skip this version number to fix the problem of version number not correct
+- 0.2.0 Add `ignore` feature
+- 0.3.0 Add `collapse` and `dispatch` feature
 
 ## TODO
 
-- Collapse current folder
-- Collapse root folder
-- Collapse all other folders
 - Open / close all files under folder (recursive or not)
 - Button Alias
-- listening other command
