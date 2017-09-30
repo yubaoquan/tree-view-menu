@@ -34,9 +34,12 @@
         background-color: #fff;
         min-width: 100px;
         min-height: 100px;
-        width: auto !important;
         padding: 0 !important;
+        overflow: auto;
         &-menu {
+            &.resized {
+                max-width: none;
+            }
             max-width: 200px;
         }
         &-ignore {
@@ -55,6 +58,7 @@
             }
         }
         &-rename {
+            width: auto !important;
             .input {
                 width: 90%;
                 background-color: @input-background-color;
