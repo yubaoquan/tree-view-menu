@@ -77,3 +77,5 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - Collapse root folder
 - Collapse all other folders
 - Open / close all files under folder (recursive or not)
+- Button Alias
+- listening other command
