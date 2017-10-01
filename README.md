@@ -89,7 +89,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     - bugfix:
         1. basename mixed a slash in rename feature
     - operation optimize:
-        1. fix the order or operation buttons in menu panel
+        1. fix the order of operation buttons in menu panel
 
 ## TODO
 
