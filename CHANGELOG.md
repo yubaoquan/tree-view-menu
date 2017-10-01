@@ -10,3 +10,8 @@
 - 0.4.0
     1. Add `button alias` feature
     2. Custom width and height of menu
+- 0.4.1
+    - bugfix:
+        1. basename mixed a slash in rename feature
+    - operation optimize:
+        1. fix the order or operation buttons in menu panel
