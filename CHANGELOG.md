@@ -18,3 +18,6 @@
 - 0.5.0 Custom width of menu buttons so the entire menu looks more tidy
 - 0.5.1 Adjust button width when add button in setting panel
 - 0.5.2 If current folder is collapsed, then click on `Collapse` will collapse the parent folder. This is useful in collapsing in big folder such as `node_modules`
+- 0.6.0
+    1. After create new file, open it instantly
+    2. Proxy `find-and-replace` and `search-in-project`, user input text in the text edit modal and let this package to invoke the search
