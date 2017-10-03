@@ -90,6 +90,8 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
         1. basename mixed a slash in rename feature
     - operation optimize:
         1. fix the order of operation buttons in menu panel
+- 0.5.0 Allow user custom the width of menu buttons so the entire menu looks more tidy
+![demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/Screen%20Shot%202017-10-03%20at%2010.32.11%20AM.png)
 
 ## TODO
 
