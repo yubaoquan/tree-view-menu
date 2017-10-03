@@ -93,6 +93,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.5.0 Allow user custom the width of menu buttons so the entire menu looks more tidy
 ![demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/Screen%20Shot%202017-10-03%20at%2010.32.11%20AM.png)
 - 0.5.1 Adjust button width when add button in setting panel
+- 0.5.2 If current folder is collapsed, then click on `Collapse` will collapse the parent folder. This is useful in collapsing in big folder such as `node_modules`
 
 ## TODO
 
