@@ -15,4 +15,5 @@
         1. basename mixed a slash in rename feature
     - operation optimize:
         1. fix the order of operation buttons in menu panel
-- 0.5.0 Custom width of menu buttons so the entire menu looks more tidy 
+- 0.5.0 Custom width of menu buttons so the entire menu looks more tidy
+- 0.5.1 Adjust button width when add button in setting panel
