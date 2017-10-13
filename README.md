@@ -98,8 +98,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     1. After create new file, open it instantly
     2. Proxy `find-and-replace` and `search-in-project`, user input text in the text edit modal and let this package to invoke the search
 - 0.6.1 Fix regression: collapse others will collapse all folders to root
+- 0.7.0 Add setting option: `Keep Search Text After Search`
 
 ## TODO
 
-- Open / close all files under folder (recursive or not)
 - Unit test needed
+- Refactor to typescript

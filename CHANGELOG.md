@@ -22,3 +22,4 @@
     1. After create new file, open it instantly
     2. Proxy `find-and-replace` and `search-in-project`, user input text in the text edit modal and let this package to invoke the search
 - 0.6.1 Fix regression: collapse others will collapse all folders to root
+- 0.7.0 Add setting option: `Keep Search Text After Search`
