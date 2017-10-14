@@ -99,6 +99,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     2. Proxy `find-and-replace` and `search-in-project`, user input text in the text edit modal and let this package to invoke the search
 - 0.6.1 Fix regression: collapse others will collapse all folders to root
 - 0.7.0 Add setting option: `Keep Search Text After Search`
+- 0.8.0 Add setting option: `Button Position`, user can set the button to show on the left side of file or folder.
+
+![demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/left-btn-demo.gif)
 
 ## TODO
 

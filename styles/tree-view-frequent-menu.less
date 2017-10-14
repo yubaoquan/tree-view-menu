@@ -5,6 +5,9 @@
 @import "ui-variables";
 
 .tree-view-menu {
+    &-entry {
+        position: relative;
+    }
     &-btn {
         color: @ui-site-color-1;
         background-color: @button-background-color;
@@ -13,6 +16,11 @@
         border-radius: @component-border-radius;
         padding: 0 5px;
         line-height: 100%;
+        &.left {
+            position: absolute;
+            left: 0;
+            transform: translateX(-100%);
+        }
         &.menu {
             padding: 5px;
             margin: 0 5px 5px 0;
