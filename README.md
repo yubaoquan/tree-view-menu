@@ -102,6 +102,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.8.0 Add setting option: `Button Position`, user can set the button to show on the left side of file or folder.
 
 ![demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/left-btn-demo.gif)
+-0.8.1
+    1. Fix button on the left cover the arrow of folder.
+    2. Fix remove class on a node which doesn't has a classList
 
 ## TODO
 
