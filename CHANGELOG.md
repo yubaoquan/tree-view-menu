@@ -24,6 +24,7 @@
 - 0.6.1 Fix regression: collapse others will collapse all folders to root
 - 0.7.0 Add setting option: `Keep Search Text After Search`
 - 0.8.0 Add setting option: `Button Position`, user can set the button to show on the left side of file or folder.
--0.8.1
+- 0.8.1
     1. Fix button on the left cover the arrow of folder.
     2. Fix remove class on a node which doesn't has a classList
+- 0.8.2 Fix previous text remain in editor when creating new file / folder.
