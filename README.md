@@ -10,9 +10,12 @@ Click on this button can do one of things below:
 2. Do an operation which is set by you in the setting panel.
 
 ## Advanced
-This package provide some other operations which is not in the context menu of tree-view, such as `Collapse`, `Dispatch`, `Ignore`
+This package provide some other operations which is not in the context menu of tree-view, such as `Collapse`, `Dispatch`, `Ignore`, `Terminal`
 
-The most interesting feature is `Dispatch`, it provides a way to set the button's behavior in registered atom commands.
+The `Terminal` feature is copied from [atom-terminal](https://atom.io/packages/atom-terminal), thanks to the author @[karan](https://atom.io/users/karan) orz
+
+
+An interesting feature is `Dispatch`, it provides a way to set the button's behavior in registered atom commands.
 
 
 ## p.s.
@@ -70,6 +73,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - Paste
 - Rename
 - Search In Directory
+- Terminal
 
 ## Change log
 
@@ -108,6 +112,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     2. Fix remove class on a node which doesn't has a classList
 - 0.8.2 Fix previous text remain in editor when creating new file / folder.
 - 0.8.3 Fix a bug: sometimes the root path is undefined
+- 0.9.0 Add `Terminal` feature: open the a terminal in target folder, if target is a file, open the terminal in the folder of the file.
+
+![terminal](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/terminal.gif)
 
 ## TODO
 
