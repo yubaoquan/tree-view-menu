@@ -28,3 +28,4 @@
     1. Fix button on the left cover the arrow of folder.
     2. Fix remove class on a node which doesn't has a classList
 - 0.8.2 Fix previous text remain in editor when creating new file / folder.
+- 0.8.3 Fix a bug: sometimes the root path is undefined
