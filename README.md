@@ -113,6 +113,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.8.2 Fix previous text remain in editor when creating new file / folder.
 - 0.8.3 Fix a bug: sometimes the root path is undefined
 - 0.9.0 Add `Terminal` feature: open the a terminal in target folder, if target is a file, open the terminal in the folder of the file.
+- 0.9.1 Fix ignore logic find constant values in wrong place.
 
 ![terminal](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/terminal.gif)
 
