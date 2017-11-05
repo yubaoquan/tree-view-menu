@@ -32,3 +32,4 @@
 - 0.9.0 Add `Terminal` feature: open the a terminal in target folder, if target is a file, open the terminal in the folder of the file.
 - 0.9.1 Fix ignore logic find constant values in wrong place.
 - 0.9.2 Update editor width.
+- 0.9.3 Change style of trigger button to solve the position shaking of entries which contains trigger button.
