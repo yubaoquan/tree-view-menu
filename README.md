@@ -116,6 +116,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 0.9.1 Fix ignore logic find constant values in wrong place.
 - 0.9.2 Update editor width.
 - 0.9.3 Change style of trigger button to solve the position shaking of entries which contains trigger button.
+- 0.9.4 Use a better way to solve the problem in 0.9.3.
 
 ![terminal](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/terminal.gif)
 

@@ -8,6 +8,12 @@
     &-entry {
         position: relative;
     }
+    &-trigger-wrapper {
+        margin-left: 10px;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+    }
     &-btn {
         color: @ui-site-color-1;
         background-color: @button-background-color;
@@ -18,7 +24,9 @@
         line-height: 100%;
         &.trigger {
             position: absolute;
-            left: 50%;
+            left: 0;
+            top: 0;
+            margin-left: 0;
         }
         &.left {
             position: absolute;
