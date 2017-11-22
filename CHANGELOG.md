@@ -34,3 +34,6 @@
 - 0.9.2 Update editor width.
 - 0.9.3 Change style of trigger button to solve the position shaking of entries which contains trigger button.
 - 0.9.4 Use a better way to solve the problem in 0.9.3.
+- 1.0.0 Add config option `TerminalOpenPath`: with two values:
+    1. `Open the terminal at current path`
+    2. `Open the terminal at project root`

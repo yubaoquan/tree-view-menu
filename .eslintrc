@@ -284,6 +284,7 @@
                 "variables": true,
                 "functions": false
             }
-        ]
+        ],
+        no-unexpected-multiline: "error"
     }
 }
