@@ -124,6 +124,8 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     1. `Open the terminal at current path`
     2. `Open the terminal at project root`
 
+- 1.0.1 Replace file system monitor of tree-view with atom.project
+
 ![terminal open path](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/termina-open-path.png)
 
 ## TODO

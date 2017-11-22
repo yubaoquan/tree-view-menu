@@ -37,3 +37,5 @@
 - 1.0.0 Add config option `TerminalOpenPath`: with two values:
     1. `Open the terminal at current path`
     2. `Open the terminal at project root`
+
+- 1.0.1 Replace file system monitor of tree-view with atom.project
