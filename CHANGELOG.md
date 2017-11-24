@@ -39,3 +39,4 @@
     2. `Open the terminal at project root`
 
 - 1.0.1 Replace file system monitor of tree-view with atom.project
+- 1.0.2 Watch `onDidOpen` so tree-view expanded after opening file with command palette can trigger a recheck

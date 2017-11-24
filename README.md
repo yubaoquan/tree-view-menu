@@ -125,6 +125,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     2. `Open the terminal at project root`
 
 - 1.0.1 Replace file system monitor of tree-view with atom.project
+- 1.0.2 Watch `onDidOpen` so tree-view expanded after opening file with command palette can trigger a recheck
 
 ![terminal open path](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/termina-open-path.png)
 
@@ -132,3 +133,4 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 
 - Unit test needed
 - Refactor to typescript
+- Maybe buttons should have hot-keys
