@@ -123,11 +123,11 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 1.0.0 Add config option `TerminalOpenPath`: with two values:
     1. `Open the terminal at current path`
     2. `Open the terminal at project root`
+![terminal open path](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/termina-open-path.png)
 
 - 1.0.1 Replace file system monitor of tree-view with atom.project
 - 1.0.2 Watch `onDidOpen` so tree-view expanded after opening file with command palette can trigger a recheck
-
-![terminal open path](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/tree-view-menu/termina-open-path.png)
+- 1.0.3 Do not show trigger button on element which actually is not a directory or file entry. For example, a git branch entry
 
 ## TODO
 
