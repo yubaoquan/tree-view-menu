@@ -25,6 +25,8 @@ so there may be some problems when open multiple projects or no project files in
 
 2. When developing this package, the node in atom was in version 7.4.0, and the syntax `async/await` ran well. I think some atom in lower version would have trouble with new ES syntax(not investigated). So make sure your atom version is up to date.
 
+3. The `copy` button in this package does not really copy the file into the system clipboard, it only copy the file's path, so you can only paste the copied file via the 'paste' button in this package's menu. If you want to copy the file and pasted to somewhere outside of atom, please use the copy feature in tree-view's context menu.
+
 ## demo
 
 Because the original demo2 and demo3 images and their clearly compressed ones are so big (over 8M each) that it may not be seen directly in this page. So I have to also put blurry ones to this page. I add the links of clearly versions as well. You can see the clearly version gif in [this package's repo](https://github.com/yubaoquan/tree-view-menu).
@@ -128,6 +130,12 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - 1.0.1 Replace file system monitor of tree-view with atom.project
 - 1.0.2 Watch `onDidOpen` so tree-view expanded after opening file with command palette can trigger a recheck
 - 1.0.3 Do not show trigger button on element which actually is not a directory or file entry. For example, a git branch entry
+
+- 1.1.0
+    1. Add ability to copy/paste files across atom windows
+    3. Add tips after click the 'copy' button
+    2. Fix typo of `copyProjectPath`
+
 
 ## TODO
 
