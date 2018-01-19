@@ -141,6 +141,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
     1. Fix tree-view root path lost in dom elements when tree-view update.
     2. Rename dataset.root to dataset.treeViewMenuRoot to avoid mistaken this attribute as standard tree-view attribute.
 
+- 1.1.2
+    1. All panels should hide when lose focus.
+
 
 ## TODO
 

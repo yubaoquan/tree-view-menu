@@ -40,3 +40,17 @@
 
 - 1.0.1 Replace file system monitor of tree-view with atom.project
 - 1.0.2 Watch `onDidOpen` so tree-view expanded after opening file with command palette can trigger a recheck
+- 1.0.3 Do not show trigger button on element which actually is not a directory or file entry. For example, a git branch entry
+
+- 1.1.0
+    1. Add ability to copy/paste files across atom windows
+    3. Add tips after click the 'copy' button
+    2. Fix typo of `copyProjectPath`
+
+
+- 1.1.1
+    1. Fix tree-view root path lost in dom elements when tree-view update.
+    2. Rename dataset.root to dataset.treeViewMenuRoot to avoid mistaken this attribute as standard tree-view attribute.
+
+- 1.1.2
+    1. All panels should hide when lose focus.
