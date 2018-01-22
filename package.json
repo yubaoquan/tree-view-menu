@@ -1,7 +1,7 @@
 {
   "name": "tree-view-menu",
   "main": "./lib/main",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Call a customizable menu which shows user choosed operations of tree-view.",
   "keywords": [
     "tree-view",
