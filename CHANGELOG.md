@@ -54,3 +54,6 @@
 
 - 1.1.2
     1. All panels should hide when lose focus.
+
+- 1.2.0
+    1. Add new feature `Reveal Active File`: When click on this button, the treeView will scroll to the active file.
