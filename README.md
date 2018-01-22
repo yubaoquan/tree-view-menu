@@ -76,6 +76,7 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 - Rename
 - Search In Directory
 - Terminal
+- Reveal Active File
 
 ## Change log
 
@@ -146,6 +147,9 @@ Because the original demo2 and demo3 images and their clearly compressed ones ar
 
 - 1.2.0
     1. Add new feature `Reveal Active File`: When click on this button, the treeView will scroll to the active file.
+
+- 1.2.1
+    1. Update readme.
 
 ## TODO
 
