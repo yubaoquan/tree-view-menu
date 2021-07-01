@@ -1,4 +1,9 @@
 # tree-view-menu
+## Stop maintaining
+
+I have not been using atom for years. Thank you for using this plugin. It's time to switch to other editors.
+
+At the very beginning, atom is better than vscode in using and configuring. But as time flies, vscode develope faster than atom. I have complained about atom even can't show remote git branch list without third part plugins, and then I'm marked as unfriendly. 
 
 ## Introduction
 
